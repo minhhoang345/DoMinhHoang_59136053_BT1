@@ -3,13 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package BT1;
+package dominhhoang_59136053_bt1;
 
 /**
  *
  * @author DELL
  */
-public class BT1Main 
+public interface IQLDS 
 {
+    public int them(CaNhan p);
+    public int xoa(String ten);
+    public void inDS();
     
 }
